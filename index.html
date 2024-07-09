@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <form action="register.php" method="POST">
+        <label for="email_user">Email</label>
+        <input type="text" id="email_user" name="email_user" required>
+        <br>
+        <label for="pass_user">Pass</label>
+        <input type="password" id="pass_user" name="pass_user" required>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <h1>Validacion</h1>
+    <form action="login.php" method="POST">
+        <label for="email_user">Email:</label>
+        <input type="text" id="email_user" name="email_user" required>
+        <br>
+        <label for="pass_user">Contraseña:</label>
+        <input type="password" id="pass_user" name="pass_user" required>
+        <br>
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+</body>
+</html>
